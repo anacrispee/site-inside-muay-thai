@@ -9,6 +9,7 @@
     body {
         font-family: 'Josefin Sans', sans-serif;
         font-size: larger;
+        margin: 0;
     }
 
     /* Menu (nav) settings */
@@ -66,7 +67,7 @@
     /* Home/Início styling */
 
     #inicio {
-        background-image: url(/images/home-fundo.png);
+        background-image: url(images/home-fundo.png);
         background-repeat:no-repeat;
         background-size:cover;
         display: flex;
@@ -98,17 +99,23 @@
     /* Home: Contact us button styling */
 
     .botao-contato {
+        appearance: none;
+        -webkit-appearance: none;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 30px;
         padding-right: 30px;
         background-color: #28282C;
+        background-image: none;
         color:blue;
         border-color: blue;
         border-radius: 20px;
         font-size: larger;
         font-weight: bolder;
         cursor: pointer;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .botao-contato:hover {
@@ -265,6 +272,11 @@
         border-color: #1A46E0;
         border-radius: 20px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .mod-button:hover {
@@ -361,6 +373,11 @@
         padding-right: 25px;
         margin: 10px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     input[name="submit"]:hover {
@@ -403,6 +420,7 @@
     body {
         font-family: 'Josefin Sans', sans-serif;
         font-size: larger;
+        margin: 0;
     }
 
     /* Menu (nav) settings */
@@ -459,7 +477,7 @@
     /* Home/Início styling */
 
     #inicio {
-        background-image: url(/images/home-fundo.png);
+        background-image: url(images/home-fundo.png);
         background-repeat:no-repeat;
         background-size:cover;
         display: flex;
@@ -505,6 +523,11 @@
         font-weight: bolder;
         cursor: pointer;
         margin-top: 10px;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .botao-contato:hover {
@@ -661,6 +684,11 @@
         border-color: #1A46E0;
         border-radius: 20px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .mod-button:hover {
@@ -757,6 +785,11 @@
         padding-right: 25px;
         margin: 10px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     input[name="submit"]:hover {
@@ -799,6 +832,7 @@
     body {
         font-family: 'Josefin Sans', sans-serif;
         font-size: larger;
+        margin: 0;
     }
 
     /* Menu (nav) settings */
@@ -868,7 +902,7 @@
     /* Home/Início styling */
 
     #inicio {
-        background-image: url(/images/home-fundo.png);
+        background-image: url(images/home-fundo.png);
         background-repeat:no-repeat;
         background-size:cover;
         display: flex;
@@ -915,6 +949,11 @@
         font-weight: bolder;
         cursor: pointer;
         margin-top: 10px;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .botao-contato:hover {
@@ -1071,6 +1110,11 @@
         border-color: #1A46E0;
         border-radius: 20px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     .mod-button:hover {
@@ -1172,6 +1216,11 @@
         padding-right: 25px;
         margin: 10px;
         cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
     }
 
     input[name="submit"]:hover {
