@@ -26,7 +26,6 @@ Projeto desenvolvido para a graduação e também para contribuir com meus conhe
 
 Mesmo após a entrega do projeto para compor a nota do trimestre na graduação, ficam alguns pontos de melhoria que tenho por objetivo:
 
-[x] Margem branca entre as sections e o body (ok);<br>
 [ ] Implementar o slide de imagens segundo o protótipo;<br>
 [ ] Arrumar o menu mobile;<br>
 [ ] Implementar efeito de scroll reveal na sessão "Modalidades";<br>
