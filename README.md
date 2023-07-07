@@ -14,7 +14,7 @@ Projeto desenvolvido para a graduação e também para contribuir com meus conhe
 
 ### Primeira entrega (parcial):
 
-- Protótipo do site (média fidelidade) desenvolvido com Figma ([acesse aqui](https://www.figma.com/file/CsXfmSHHaiAsMCKvWvaPXt/HoW-V---Landing-Page?type=design&node-id=2-188&t=sXZ35gtJIkza8f8p-0));
+- Protótipo do site (média fidelidade) desenvolvido com Figma ([acesse aqui](https://www.figma.com/proto/CsXfmSHHaiAsMCKvWvaPXt/HoW-V---Landing-Page?type=design&node-id=2-189&t=OlFB2n4YRcss9D0r-1&scaling=min-zoom&page-id=2%3A188&mode=design));
 - Desenvolvimento parcial do código-fonte;
 - Relatório parcial.
 
