@@ -1,0 +1,1258 @@
+@media screen and (min-width: 1024px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Body settings */
+
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: larger;
+        margin: 0;
+    }
+
+    /* Menu (nav) settings */
+
+    .logo {
+        width: 80px;
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    nav {
+        background-color: #28282C;
+        color: white;
+        font-size: larger;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+        width: 100%;
+        height: 90px;
+    }
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        margin: 20px;
+        margin-right: 60px;
+    }
+
+    .nav-links {
+        margin-left: 20px;
+    }
+
+    .nav-links:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-links:visited {
+        color: white;
+    }
+
+    .nav-links:hover {
+        color: red;
+    }
+
+    .fa-solid, .hamburguer-menu {
+        display: none;
+    }
+
+    /* Home/Início styling */
+
+    #inicio {
+        background-image: url(images/home-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .banner-img {
+        width: 580px;
+        margin-top: 40px;
+    }
+
+    .inicio-article {
+        margin-left: 60px;
+        margin-top: 130px;
+    }
+
+    .inicio-title {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .inicio-p {
+        font-size: xx-large;
+        font-weight: lighter;
+        width: 400px;
+    }
+
+    /* Home: Contact us button styling */
+
+    .botao-contato {
+        appearance: none;
+        -webkit-appearance: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #28282C;
+        background-image: none;
+        color:blue;
+        border-color: blue;
+        border-radius: 20px;
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .botao-contato:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* About us/Sobre nós styling */
+
+    #sobre {
+        height: 600px;
+        background-image: url(images/sobre-nos-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position-x: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dez-anos-exp, .tres-modal {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .sobre-title {
+        margin-top: 120px;
+    }
+
+    .sobre-title, .dez-anos-t, .tres-modal-t {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+    }
+
+    .dez-anos-p, .tres-modal-p {
+        text-align: left;
+    }
+
+    .dez-anos-t, .tres-modal-t {
+        color: blue;
+        font-size: xx-large;
+        font-weight:900;
+    }
+
+    .sobre-p {
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Feedbacks session styling */
+
+    .feedback-alunos {
+        background-color: #28282C;
+        color: white;
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .feedback-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 120px;
+    }
+
+    .feedback-imgs {
+        width: 120px;
+    }
+
+    .alunos {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .fb-title {
+        font-weight: bold;
+    }
+
+    .fb-p {
+        font-weight: lighter;
+        width: 200px;
+    }
+
+    .feedbacks {
+        padding: 20px;
+    }
+
+    /* Modalidades section styling: */
+
+    #modalidades {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .modalidades-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 120px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .muay-thai, .personal-fight, .jiu-jitsu {
+        background-color: #363A49;
+        border-radius: 10px;
+        width: 650px;
+        display: flex;
+        padding: 20px;
+        margin: 60px;
+        font-weight: lighter;
+        font-size: medium;
+
+    }
+
+    .mod-mt-txtcontainer, .mod-pf-txtcontainer, .mod-jiu-txtcontainer {
+        margin: 20px;
+    }
+
+    .mod-mt-imgcontainer {
+        padding: 5px;
+    }
+
+    .mod-mt-img, .mod-pf-img, .mod-jiu-img {
+        width: 250px;
+    }
+
+    .mod-button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: #363A49;
+        color:#1A46E0;
+        border-color: #1A46E0;
+        border-radius: 20px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .mod-button:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* Localização */
+
+    #localizacao {
+        height: 600px;
+        background-image: url(images/sobre-nos-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position-x: center; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .local-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .local-article {
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+    }
+
+    .local-p {
+        padding: 30px;
+        font-size: medium;
+    }
+
+    .local-endereco-p {
+        font-weight: lighter;
+        width: 240px;
+    }
+
+    /* Contato */
+
+    #contato {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+
+    input[name="email"], input[name="tel"], input[name="text"] {
+        width: 160px;
+        margin: 3px;
+        padding: 5px;
+        border-radius: 6px;
+        border-style: none;
+        font-size: x-small;
+    }
+
+    input[name="text"] {
+        height: 40px;
+    }
+
+    input[name="submit"] {
+        background-color: #28282C;
+        color: white;
+        font-weight: lighter;
+        font-size: x-small;
+        border-color: white;
+        border-radius: 15px;
+        padding: 4px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 10px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    input[name="submit"]:hover {
+        color: red;
+        border-color: red;
+        transition-duration: 0.5s;
+    }
+
+
+    .logo-contato {
+        width: 80px;
+    }
+
+    .contatos-wrapper {
+        padding: 10px;
+    }
+
+    .contatos-links {
+        color: white;
+        text-decoration: none;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+
+    .contatos-links:hover {
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Body settings */
+
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: larger;
+        margin: 0;
+    }
+
+    /* Menu (nav) settings */
+
+    .logo {
+        width: 80px;
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    nav {
+        background-color: #28282C;
+        color: white;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+        width: 100%;
+        height: 90px;
+    }
+
+    #nav-list {
+        list-style: none;
+        display: flex;
+        margin: 20px;
+        margin-right: 60px;
+    }
+
+    .nav-links {
+        margin-left: 20px;
+    }
+
+    .nav-links:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-links:visited {
+        color: white;
+    }
+
+    .nav-links:hover {
+        color: red;
+    }
+
+    .fa-solid, .hamburguer-menu {
+        display: none;
+    }
+
+    /* Home/Início styling */
+
+    #inicio {
+        background-image: url(images/home-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .banner-img {
+        width: 400px;
+        margin-top: 60px;
+    }
+
+    .inicio-article {
+        margin-left: 60px;
+        margin-top: 130px;
+        margin-bottom: 20px;
+
+    }
+
+    .inicio-title {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .inicio-p {
+        font-size: x-large;
+        font-weight: lighter;
+        width: 300px;
+    }
+
+    /* Home: Contact us button styling */
+
+    .botao-contato {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 30px;
+        background-color: #28282C;
+        color:blue;
+        border-color: blue;
+        border-radius: 20px;
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+        margin-top: 10px;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .botao-contato:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* About us/Sobre nós styling */
+
+    #sobre {
+        height: 600px;
+        background-image: url(images/sobre-nos-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position-x: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dez-anos-exp, .tres-modal {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .sobre-title {
+        margin-top: 120px;
+    }
+
+    .sobre-title, .dez-anos-t, .tres-modal-t {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+    }
+
+    .dez-anos-p, .tres-modal-p {
+        text-align: left;
+    }
+
+    .dez-anos-t, .tres-modal-t {
+        color: blue;
+        font-size: xx-large;
+        font-weight:900;
+    }
+
+    .sobre-p {
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Feedbacks session styling */
+
+    .feedback-alunos {
+        background-color: #28282C;
+        color: white;
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+    }
+
+    .feedback-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 120px;
+    }
+
+    .feedback-imgs {
+        width: 120px;
+    }
+
+    .alunos {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .fb-title {
+        font-weight: bold;
+    }
+
+    .fb-p {
+        font-weight: lighter;
+        width: 200px;
+    }
+
+    .feedbacks {
+        padding: 20px;
+    }
+
+    /* Modalidades section styling: */
+
+    #modalidades {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .modalidades-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 120px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .muay-thai, .personal-fight, .jiu-jitsu {
+        background-color: #363A49;
+        border-radius: 10px;
+        width: 650px;
+        display: flex;
+        padding: 20px;
+        margin: 60px;
+        font-weight: lighter;
+        font-size: medium;
+
+    }
+
+    .mod-mt-txtcontainer, .mod-pf-txtcontainer, .mod-jiu-txtcontainer {
+        margin: 20px;
+    }
+
+    .mod-mt-imgcontainer {
+        padding: 5px;
+    }
+
+    .mod-mt-img, .mod-pf-img, .mod-jiu-img {
+        width: 250px;
+    }
+
+    .mod-button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: #363A49;
+        color:#1A46E0;
+        border-color: #1A46E0;
+        border-radius: 20px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .mod-button:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* Localização */
+
+    #localizacao {
+        height: 600px;
+        background-image: url(images/sobre-nos-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position-x: center; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .local-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .local-article {
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+    }
+
+    .local-p {
+        padding: 30px;
+        font-size: medium;
+    }
+
+    .local-endereco-p {
+        font-weight: lighter;
+        width: 240px;
+    }
+
+    /* Contato */
+
+    #contato {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+
+    input[name="email"], input[name="tel"], input[name="text"] {
+        width: 160px;
+        margin: 3px;
+        padding: 5px;
+        border-radius: 6px;
+        border-style: none;
+        font-size: x-small;
+    }
+
+    input[name="text"] {
+        height: 40px;
+    }
+
+    input[name="submit"] {
+        background-color: #28282C;
+        color: white;
+        font-weight: lighter;
+        font-size: x-small;
+        border-color: white;
+        border-radius: 15px;
+        padding: 4px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 10px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    input[name="submit"]:hover {
+        color: red;
+        border-color: red;
+        transition-duration: 0.5s;
+    }
+
+
+    .logo-contato {
+        width: 80px;
+    }
+
+    .contatos-wrapper {
+        padding: 10px;
+    }
+
+    .contatos-links {
+        color: white;
+        text-decoration: none;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+
+    .contatos-links:hover {
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Body settings */
+
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: larger;
+        margin: 0;
+    }
+
+    /* Menu (nav) settings */
+
+    .logo {
+        width: 80px;
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    nav {
+            background-color: #28282C;
+            color: white;
+            font-weight: lighter;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left:0;
+            right: 0;
+            width: 100%;
+            height: 90px;
+    }
+
+    #nav-list {
+        background-color: #28282C;
+        list-style: none;
+        margin: 20px;
+        margin-right: 60px;
+        position: relative;
+        top: 93%;
+        right: -35%;
+        padding: 20px;
+        width: 150px;
+        height: 100px;
+        display: none;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    .nav-links:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-links:visited {
+        color: white;
+    }
+
+    .nav-links:hover {
+        color: red;
+    }
+
+    .fa-solid{
+        margin: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fa-solid:hover {
+        color: red;
+    }
+
+    /* Home/Início styling */
+
+    #inicio {
+        background-image: url(images/home-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+
+    .banner-img {
+        width: 400px;
+        margin-top: px;
+    }
+
+    .inicio-article {
+        margin-left: 60px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+
+    }
+
+    .inicio-title {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .inicio-p {
+        font-size: x-large;
+        font-weight: lighter;
+        width: 300px;
+    }
+
+    /* Home: Contact us button styling */
+
+    .botao-contato {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 30px;
+        background-color: #28282C;
+        color:blue;
+        border-color: blue;
+        border-radius: 20px;
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+        margin-top: 10px;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .botao-contato:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* About us/Sobre nós styling */
+
+    #sobre {
+        height: 600px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-article, .sobre-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dez-anos-exp, .tres-modal {
+        width: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .sobre-title {
+        margin-top: 80px;
+    }
+
+    .sobre-title, .dez-anos-t, .tres-modal-t {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 900;
+        padding: 10px;
+    }
+
+    .dez-anos-p, .tres-modal-p {
+        text-align: left;
+    }
+
+    .dez-anos-t, .tres-modal-t {
+        color: blue;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+
+    .sobre-p {
+        width: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    /* Feedbacks session styling */
+
+    .feedback-alunos {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .feedback-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 120px;
+    }
+
+    .feedback-imgs {
+        width: 120px;
+    }
+
+    .alunos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .fb-title {
+        font-weight: bold;
+    }
+
+    .fb-p {
+        font-weight: lighter;
+        width: 200px;
+    }
+
+    .feedbacks {
+        padding: 20px;
+    }
+
+    /* Modalidades section styling: */
+
+    #modalidades {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .modalidades-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 80px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .muay-thai, .personal-fight, .jiu-jitsu {
+        background-color: #363A49;
+        border-radius: 10px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        font-weight: lighter;
+        font-size: medium;
+
+    }
+
+    .mod-mt-txtcontainer, .mod-pf-txtcontainer, .mod-jiu-txtcontainer {
+        margin: 20px;
+    }
+
+    .mod-mt-imgcontainer {
+        padding: 5px;
+    }
+
+    .mod-mt-img, .mod-pf-img, .mod-jiu-img {
+        width: 250px;
+    }
+
+    .mod-button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+        background-color: #363A49;
+        color:#1A46E0;
+        border-color: #1A46E0;
+        border-radius: 20px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    .mod-button:hover {
+        border-color: red;
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+    /* Localização */
+
+    #localizacao {
+        height: 650px;
+        background-image: url(images/sobre-nos-fundo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position-x: center; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .local-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight:900;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+
+    .local-article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .local-p {
+        text-align: center;
+        padding: 30px;
+        font-size: medium;
+    }
+
+    .local-endereco-p {
+        font-weight: lighter;
+        width: 240px;
+    }
+
+    /* Contato */
+
+    #contato {
+        background-color: #28282C;
+        color: white;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    input[name="email"], input[name="tel"], input[name="text"] {
+        width: 160px;
+        margin: 3px;
+        padding: 5px;
+        border-radius: 6px;
+        border-style: none;
+        font-size: x-small;
+    }
+
+    input[name="text"] {
+        height: 40px;
+    }
+
+    input[name="submit"] {
+        background-color: #28282C;
+        color: white;
+        font-weight: lighter;
+        font-size: x-small;
+        border-color: white;
+        border-radius: 15px;
+        padding: 4px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 10px;
+        cursor: pointer;
+        appearance: none;
+        -webkit-appearance: none;
+        transform: none;
+        box-shadow: none;
+        border-style: solid;
+    }
+
+    input[name="submit"]:hover {
+        color: red;
+        border-color: red;
+        transition-duration: 0.5s;
+    }
+
+
+    .logo-contato {
+        width: 80px;
+        padding: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contatos-wrapper {
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contatos-links {
+        color: white;
+        text-decoration: none;
+        font-size: smaller;
+        font-weight: lighter;
+    }
+
+    .contatos-links:hover {
+        color: red;
+        transition-duration: 0.5s;
+    }
+
+}
