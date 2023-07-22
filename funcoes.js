@@ -1,18 +1,18 @@
 
 function showMenu() {
-  var x = document.getElementById("nav-list");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  const menu = document.getElementById("nav-list");
+  
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
   } else {
-    x.style.display = "block";
+    menu.style.display = "block";
   }
+
+  const links = document. getElementsByClassName('nav-links');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function() {
+      menu.style.display = "none";
+    });
 }
 
-function animarElementos() {
-  var elementosAnimados = document.querySelectorAll('.animar');
-  elementosAnimados.forEach(function(elemento) {
-    if (estaVisivel(elemento)) {
-      elemento.style.opacity = 1;
-    }
-  });
 }
