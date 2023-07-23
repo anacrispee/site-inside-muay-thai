@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Inside Muay Thai</title>
         <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
-        <script type="text/javascript" src="funcoes.js"></script>
+        <script type="text/javascript" src="index.js"></script>
         <!--Media Query settings-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Font-family settings-->
@@ -157,12 +157,12 @@
         </section>
         <section id="contato">
             <article class="formulario">
-                <form class="foms" action="mailto:obidsng@gmail.com" method="post">
+                <form class="foms">
                     <h4 class="form-title">Deixe sua mensagem!</h4>
-                    <input type="email" name="email" placeholder="email@email.com" required><br>
-                    <input type="tel" name="tel" placeholder="00 0000-0000" pattern="\d{2} \d{5}-\d{4}$" required><br>
-                    <input type="text" name="text" placeholder="Deixe sua mensagem e logo entraremos em contato!" required><br>
-                    <input type="submit" name="submit" label="Enviar" ><br>
+                    <input id="email" type="email" name="email" placeholder="email@email.com" required><br>
+                    <input id="telefone" type="tel" name="tel" placeholder="00 0000-0000" required><br>
+                    <input id="mensagem" type="text" name="text" placeholder="Deixe sua mensagem e logo entraremos em contato!" required><br>
+                    <button id="botao" type="submit" name="submit" value="enviar">Enviar</button><br>
                 </form>
             </article>
             <article class="logo-container">
