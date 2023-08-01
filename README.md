@@ -23,4 +23,4 @@ Projeto desenvolvido para a graduação e também para contribuir com meus conhe
 - Relatório completo descrevendo a arquitetura das informações do site, implementação do site, o que foi aprendido durante o projeto e os pontos de melhoria ou faltantes para se implementar.
 
 ## Resultado final do site:
-https://anacrispee.github.io/site-inside-muay-thai/public/index.html
+https://anacrispee.github.io/site-inside-muay-thai/index.html
